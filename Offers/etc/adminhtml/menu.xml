@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+                id="Charbel::Offers"
+                title="Offers"
+                translate="title"
+                module="Charbel_Offers"
+                sortOrder="100"
+                action="offers/index/index"
+                resource="Charbel_Offers::offers"
+        />
+<!--        <add-->
+<!--            id="Charbel::Offers::listing"-->
+<!--            title="Offers"-->
+<!--            translate="title"-->
+<!--            module="Charbel::Offers"-->
+<!--            sortOrder="20"-->
+<!--            parent="Charbel_Offers::offers"-->
+<!--            action="offers/listing/index"-->
+<!--            resource="Charbel_Offers::offers"-->
+<!--        />-->
+    </menu>
+</config>
